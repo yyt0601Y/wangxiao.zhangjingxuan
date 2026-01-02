@@ -24,11 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||张婧萱|我们|在一起吧|❤|#rectangle|');
-    }
-
-    S.Drawing.loop(function () {
-      S.Shape.render();
+      S.UI.simulate('|#countdown 3||张婧萱|我喜欢你|美丽大方|❤|#rectangle|''|#countdown 3||张婧萱|我喜'xi'hua||❤|#rectangle      S.Shape.render();
     });
   }
 };
